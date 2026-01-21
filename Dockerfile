@@ -10,5 +10,3 @@ COPY build/libs/ec2-docker-0.0.1-SNAPSHOT.jar app.jar
 
 # 애플리케이션 실행
 ENTRYPOINT ["java", "-jar", "app.jar"]
-
-
