@@ -5,7 +5,6 @@ FROM eclipse-temurin:17-jdk-jammy
 WORKDIR /app
 
 # 빌드된 jar 파일 복사
-# ⚠️ 여기 경로만 나중에 수정하시면 됩니다
 COPY build/libs/ec2-docker-0.0.1-SNAPSHOT.jar app.jar
 
 # 애플리케이션 실행
